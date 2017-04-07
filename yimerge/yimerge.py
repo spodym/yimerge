@@ -89,7 +89,7 @@ def main():
     # Construct the argument parser and parse the arguments
     ap = argparse.ArgumentParser()
     ap.add_argument(
-        "-c", "--clips", nargs='+',
+        "-c", "--clips", nargs='+', required=True,
         help="Path to the clips to be merged")
     args = vars(ap.parse_args())
 
