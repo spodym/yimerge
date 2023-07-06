@@ -16,6 +16,6 @@ setup(
     },
     install_requires=[
         'moviepy==0.2.2.13',
-        'scipy==0.18.1',
+        'scipy==1.10.0',
     ],
 )
